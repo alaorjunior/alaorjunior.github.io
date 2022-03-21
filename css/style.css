@@ -1,0 +1,85 @@
+/*--------------Seção de Tags--------------------*/
+* { /*Chamada de reset, como se estivesse zerando.Quando for informado esse asterisco, quer dizer que estou dizendo que a atribuição que der será pra todas as tags*/
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;/*No momento que se colocou o background abaixo e já havia uma imagem no site o navegador respeitou o tamanho da imagem e dividiu em varias faíxas, sendo assim, entramos com essa tag para informar que o height é 100%*/
+}
+
+body{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(79,98,203,1) 100%);
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 16px;
+        
+}
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+}
+h5 {
+    color:rgb(46, 45, 45);
+}
+
+/*---------------Seção de Classes----------------*/
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white; /*Os valores se lêem: 0 0 horizontal e vertical e o 20px é o espalhamento da sombra e logo em seguida a cor da sombra*/
+    border: 3px solid white;
+    margin-top: 10px;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    display:flex;
+    justify-content: space-around; /*Esse comando (center)porém alteramos para o comando space-between que significa (espaçamento entre eles) só funciona no flexbox acima*/
+    list-style: none; /*Para tirar as bolinhas/riscos das imagens linkadas*/
+    margin: 20px 0;
+    
+}
+.social img{ /*Quando queremos referenciar todas as imagens por igual colocamos o img a frente do nome com um espaço, assim ele colocará todas as imagens no mesmo tamanho*/
+    width: 33px;
+}
+.link-list {
+    list-style: none; /*Sempre colocar o list style para tirar os bullets  */
+}
+
+.link-list li {
+    margin: 10px 20px;
+}
+ 
+.link-list li a { /*Porque as letras depois do link-list? porque estamos estilizando o (a) que está dentro do (li) que está dentro do link-list, estamos apenas estilizando o (a)*/
+    background: white;
+    padding: 15px 20px;
+    display: block; /*cada tag se comporta de uma forma diferente, a tag (a) é uma tag inline por isso fica as letras todas juntas, e aí trocamos para block*/
+    text-decoration: none;
+    border-radius: 4px;
+    color: rgb(54,77,204);
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    
+}
+
+.link-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+
+}
