@@ -5,7 +5,7 @@
 }
 
 html, body{
-    height: 100%;/*No momento que se colocou o background abaixo e já havia uma imagem no site o navegador respeitou o tamanho da imagem e dividiu em varias faíxas, sendo assim, entramos com essa tag para informar que o height é 100%*/
+    height: auto;/*No momento que se colocou o background abaixo e já havia uma imagem no site o navegador respeitou o tamanho da imagem e dividiu em varias faíxas, sendo assim, entramos com essa tag para informar que o height é 100%*/
 }
 
 body{
@@ -13,7 +13,9 @@ body{
     font-family: 'Raleway', sans-serif;
     background: rgb(94,109,194);
     background: linear-gradient(180deg, rgba(94,109,194,1) 0%, rgba(203,79,144,1) 100%);
+    
 }
+
 h1{
     font-family: 'Architects Daughter', cursive;
     font-weight: 100;
@@ -32,7 +34,7 @@ h5 {
     color:rgb(46, 45, 45);
 }
 
-/*---------------Seção de Classes----------------*/
+/*--------------------Seção de Classes------------------------*/
 
 .avatar {
     width: 100px;
@@ -78,8 +80,105 @@ h5 {
 }
 
 .link-list li a span {
-    color: grey;
+    color: rgb(65, 19, 19);
     display: block;
     margin-top: 10px;
+    
 
 }
+.profissionais {
+    list-style: none;
+}
+.pacotes {
+    background-color: aqua;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.creche-basico {
+    background-color: aqua;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.creche-completo {
+    background-color: aqua;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.hotel {
+    background-color: aqua;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.diaria {
+    background-color: aqua;
+    padding: 15px 20px;
+    display: block;
+    width: 300px;
+    height: 250px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(54,77,204);  
+    list-style: none;
+    border-radius: 4px;
+    box-shadow: 0 0 20px white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.footer {
+    background: white;
+    padding: 15px 20px;
+    display:block; /*cada tag se comporta de uma forma diferente, a tag (a) é uma tag inline por isso fica as letras todas juntas, e aí trocamos para block*/
+    text-decoration: none;
+    border-radius: 4px;
+    color: rgb(54,77,204);
+    font-weight: bold;
+    box-shadow: 0 0 20px white;
+    text-align: center;
+    margin: 4px 20px;
+}
+.email {
+    background: rgb(94,109,194);
+    background: linear-gradient(180deg, rgba(94,109,194,1) 0%, rgba(203,79,144,1) 100%);
+}
+
+/*-------------------Seção de IDs------------------------------*/
