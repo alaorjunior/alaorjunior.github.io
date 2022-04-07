@@ -7,40 +7,33 @@
     <title>Contato</title>
 </head>
 <body>
-    <form class="email">
-        <div>
-            <h1>Nos envie um e-mail</h1> <br/>
-            <form action="mailto: casaderepousomeusavos@gmail.com" method="post"> <br/> <!--O enctype só servira para o atributo Post-->
-            <label for="">Nome Completo *</label> <br/>
-            <input type="text" name="Nome"required/> <br/> <!--Se não for colocado name nos input, a mensagem que tenta enviar não chega a caixa de mensagem-->
-        </div>
-        <div>
+    <div class="email">
+        <h1>Nos envie um e-mail</h1> <br/>
+        <form action="mailto: casaderepousomeusavos@gmail.com" method="post" enctype="text/plain"> <br/> <!--O enctype só servira para o atributo Post-->
+        <label for="">Nome Completo *</label> <br/>
+        <input type="text" name="Nome"required/> <br/> <!--Se não for colocado name nos input, a mensagem que tenta enviar não chega a caixa de mensagem-->
+        <label for="">E-mail *</label> <br/>
+        <input type="email" required/> <br/>
 
-            <label for="">E-mail *</label> <br/>
-            <input type="email" name="email" required/> <br/>
+        <label for="">Telefone</label> <br/>    
+        <input type="" name="telefone"/> <br/>
 
-            <label for="">Telefone</label> <br/>    
-            <input type="" name="telefone"/> <br/>
-
-            <label>Escolha o Assunto</label> <br/> 
-            <select id="Assunto">
-                <option selected disabled value="">Selecione</option>
-                <option>Administrativo</option>
-                <option>Contratos</option>
-                <option>Doações</option>
-                <option>Financeiro</option>
-                <option>Reclamação</option>
-                <option>Sugestão</option>
+        <label>Escolha o Assunto</label> <br/> 
+        <select id="Assunto">
+            <option selected disabled value="">Selecione</option>
+            <option>Administrativo</option>
+            <option>Contratos</option>
+            <option>Doações</option>
+            <option>Financeiro</option>
+            <option>Reclamação</option>
+            <option>Sugestão</option>
                 
-            </select><br/>
+        </select><br/>
 
-            <label for="">Sua Mensagem *</label> <br/> 
-            <textarea name="mensagem" id="" cols="60" rows="20"></textarea>   
-            <input type="submit"/> <br/>
-        </div>
-
-    </form>
-
-    
+        <label for="">Sua Mensagem *</label> <br/> 
+        <textarea name="mensagem" id="" cols="60" rows="20"></textarea>   
+        <input type="submit"/> <br/>
+    </div>
+   
 </body>
 </html>

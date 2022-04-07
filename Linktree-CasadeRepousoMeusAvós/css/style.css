@@ -24,6 +24,7 @@ h1{
 }
 h2{
     font-size: 16px;
+    font-family: 'Architects Daughter', cursive;
         
 }
 h4 {
@@ -91,10 +92,10 @@ h5 {
 }
 .pacotes {
     background-color: aqua;
-    padding: 15px 20px;
+    padding: 20px 20px 0px;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 250px;
     margin: 10px 0 10px 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54,77,204);  
@@ -103,13 +104,14 @@ h5 {
     box-shadow: 0 0 20px white;
     font-weight: bold;
     font-size: 16px;
+    
 }
 .creche-basico {
     background-color: aqua;
-    padding: 15px 20px;
+    padding: 20px 20px 0;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 330px;
     margin: 10px 0 10px 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54,77,204);  
@@ -121,10 +123,10 @@ h5 {
 }
 .creche-completo {
     background-color: aqua;
-    padding: 15px 20px;
+    padding: 20px 20px 0;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 330px;
     margin: 10px 0 10px 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54,77,204);  
@@ -136,10 +138,10 @@ h5 {
 }
 .hotel {
     background-color: aqua;
-    padding: 15px 20px;
+    padding: 20px 20px 0;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 330px;
     margin: 10px 0 10px 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54,77,204);  
@@ -151,10 +153,10 @@ h5 {
 }
 .diaria {
     background-color: aqua;
-    padding: 15px 20px;
+    padding: 20px 20px 0;
     display: block;
     width: 300px;
-    height: 300px;
+    height: 250px;
     margin: 10px 0 10px 20px;
     font-family: 'Raleway', sans-serif;
     color: rgb(54,77,204);  
@@ -175,10 +177,6 @@ h5 {
     box-shadow: 0 0 20px white;
     text-align: center;
     margin: 4px 20px;
-}
-.email {
-    background: rgb(94,109,194);
-    background: linear-gradient(180deg, rgba(94,109,194,1) 0%, rgba(203,79,144,1) 100%);
 }
 
 /*-------------------Seção de IDs------------------------------*/
