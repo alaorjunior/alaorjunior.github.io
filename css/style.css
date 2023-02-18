@@ -69,7 +69,7 @@ h5 {
 }
 
 .link-list li a { /*Porque as letras depois do link-list? porque estamos estilizando o (a) que está dentro do (li) que está dentro do link-list, estamos apenas estilizando o (a)*/
-    background: white;
+    background: yellow;
     padding: 15px 20px;
     display: block; /*cada tag se comporta de uma forma diferente, a tag (a) é uma tag inline por isso fica as letras todas juntas, e aí trocamos para block*/
     text-decoration: none;
